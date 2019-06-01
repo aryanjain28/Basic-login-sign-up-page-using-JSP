@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+		p
+		{
+			font-size: 30px;
+			font-style: italic;
+		}
+		input[type="submit"]
+		{
+			font-size: 25px;
+			height:40px;
+			width: 100%;
+		}
+		body
+		{
+			position: absolute;
+			top:140px;
+			left: 500px;
+		}
+	</style>
+</head>
+<body>
+	<p>Enter details below : </p>
+	<form action="signup.jsp" method="post">
+		<table>
+			<tr>
+				<td>Enter first name : </td>
+				<td><input type="text" name="fname"></td>
+			</tr>
+			<tr>
+				<td>Enter last name : </td>
+				<td><input type="text" name="lname"></td>
+			</tr>
+			<tr>
+				<td>Enter ID : </td>
+				<td><input type="text" name="id"></td>
+			</tr>
+			<tr>
+				<td>Set password : </td>
+				<td><input type="password" name="pword"></td>
+			</tr>
+			<tr>
+				<td colspan="2"><input type="submit" value="Sign up.."></td>
+			</tr>
+		</table>
+		
+	</form>
+</body>
+</html>
